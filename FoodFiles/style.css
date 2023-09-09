@@ -1,0 +1,249 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox {
+  overflow: hidden;
+}
+.imgbox img {
+  width: 100%;
+}
+
+section {
+  padding: 80px 0;
+}
+
+header {
+  padding: 20px 0;
+}
+header .imgbox {
+  width: 40px;
+}
+header nav a {
+  font-size: 20px;
+  color: #8c8999;
+  margin-right: 30px;
+}
+header nav .home-color {
+  color: #74bebc;
+}
+
+#delivered {
+  background-color: #f4fafb;
+}
+#delivered .box h1 {
+  font-size: 68px;
+  font-weight: 700;
+  margin-right: 80px;
+}
+#delivered .box span {
+  color: #37b7c3;
+}
+#delivered .box h5 {
+  font-size: 20px;
+  color: #676f8b;
+  margin: 25px 50px 50px 0;
+  line-height: 1.3;
+}
+#delivered .box .btn {
+  color: white;
+  padding: 13px 30px;
+  background-color: #38b6c1;
+  font-size: 20px;
+  border-radius: 5px;
+}
+#delivered .box .imgbox {
+  width: 120px;
+  margin: 20px 0 10px;
+}
+#delivered .box h4 {
+  font-size: 20px;
+}
+
+#home {
+  background-color: #f1f8f9;
+}
+#home .textbox h1 {
+  color: #49abc1;
+  font-size: 60px;
+  font-weight: 700;
+  width: 400px;
+}
+#home .textbox h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 75px 50px 0;
+  line-height: 1.3;
+}
+#home .textbox .btn {
+  color: white;
+  padding: 13px 30px;
+  background-color: #38b6c1;
+  font-size: 20px;
+  border-radius: 5px;
+}
+#home .imgbox {
+  width: 520px;
+}
+
+#how h1 {
+  color: #36b3bd;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+#how .box .imgbox {
+  width: 350px;
+}
+#how .box .textbox h2 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 9px;
+}
+#how .box .textbox h4 {
+  color: #676f8b;
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+#burger .textbox {
+  width: 500px;
+  text-align: center;
+}
+#burger .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #3cc1d8;
+}
+#burger .textbox h4 {
+  color: #6c7480;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 20px 0;
+}
+#burger .textbox h4 span {
+  color: #3cc1d8;
+  text-decoration-line: underline;
+}
+#burger .btn {
+  font-size: 18px;
+  padding: 15px 46px;
+  margin: 0 20px;
+  border: 0.5px solid #bdbdbd;
+  border-radius: 5px;
+}
+#burger .bgc {
+  color: white;
+  background-color: #3cc1d8;
+}
+#burger .box {
+  padding: 30px;
+}
+#burger .box .imgbox {
+  width: 150px;
+  border-radius: 10px;
+}
+#burger .box .textbox {
+  margin-left: 20px;
+  text-align: left;
+  width: auto;
+}
+#burger .box .textbox .minibox h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+#burger .box .textbox .minibox h5 {
+  color: #3cc1d8;
+  font-size: 18px;
+}
+#burger .box .textbox p {
+  color: rgba(35, 47, 66, 0.5215686275);
+  margin: 15px 0;
+  font-size: 18px;
+  line-height: 1.2;
+}
+#burger .box .textbox .add {
+  display: flex;
+}
+#burger .box .textbox .add input {
+  border: 1px solid #e1e1e1;
+  background-color: #e9e9e9;
+  width: 50px;
+}
+#burger .box .textbox .add .btn {
+  background-color: #3cc1d8;
+  color: white;
+  padding: 7px 20px;
+}
+#burger .big {
+  padding: 17px 53px;
+  margin-top: 50px;
+}
+
+#order .imgbox {
+  width: 600px;
+}
+#order h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #36b3bd;
+}
+#order h5 {
+  color: #676f8b;
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 25px 75px 50px 0;
+}
+#order .btn {
+  color: white;
+  background-color: #38b6c1;
+  padding: 13px 34px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#call {
+  background-color: #f1f8f9;
+}
+#call h1 {
+  color: #36b3bd;
+  font-size: 65px;
+  font-weight: 700;
+}
+#call h5 {
+  color: #676f8b;
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 25px 75px 50px 0;
+}
+#call .btn {
+  color: white;
+  background-color: #38b6c1;
+  padding: 13px 34px;
+  font-size: 20px;
+}
+#call .imgbox {
+  width: 520px;
+}
+
+#support .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  margin: 0 70px 0 40px;
+  line-height: 1.1;
+}
+#support .textbox span {
+  color: rgba(36, 102, 114, 0.5137254902);
+}
+#support .textbox .btn {
+  font-size: 22px;
+  color: #38b6c1;
+  background-color: white;
+  padding: 10px 30px;
+  margin: 30px 0 0 40px;
+}
+#support .bgc {
+  background-color: #35b6c1;
+}/*# sourceMappingURL=style.css.map */
