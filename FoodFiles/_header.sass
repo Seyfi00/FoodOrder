@@ -1,11 +1,49 @@
 header
-    padding: 20px 0
-    .imgbox
-        width: 40px
-    nav
-        a
-            font-size: 20px
-            color: #8c8999
-            margin-right: 30px
-        .home-color
-            color: #74bebc
+    position: fixed
+    z-index: 1
+    width: 100%
+    background-color: #3d4d5e
+    padding: 10px 0
+    .menu
+        .imgbox
+            width: 40px
+            img
+                &:hover
+                    cursor: pointer        
+        .btn
+            display: flex
+            justify-content: space-between
+            align-items: center
+            border: 1px solid #7e7f7f
+            border-radius: 10px
+            padding: 7px 10px 
+            background-color: #3d4d5e
+            &:hover
+                cursor: pointer
+                border: 2px solid #37b7c3
+            h2
+                font-size: 20px
+                color: #ffffff
+                margin-right: 10px
+            .icon
+                i
+                    font-size: 20px
+                    color: #ffffff
+        nav
+            display: none
+    @media screen and ( min-width: 992px )
+        .menu
+            .btn
+                display: none
+            nav
+                display: flex
+                a
+                    font-size: 20px
+                    color: #ffffff
+                    margin-right: 30px
+                    &:hover
+                        color: #37b7c3
+                        cursor: pointer
+
+            
+        
