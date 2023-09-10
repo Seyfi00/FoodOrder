@@ -71,7 +71,7 @@ header .menu nav {
 }
 
 #delivered {
-  background-color: #f4fafb;
+  background-color: #083e79;
 }
 #delivered .textbox h1 {
   font-size: 30px;
@@ -105,6 +105,9 @@ header .menu nav {
 @media screen and (min-width: 576px) {
   #delivered .textbox h1 {
     font-size: 45px;
+  }
+  #delivered .imgbox {
+    width: 300px;
   }
 }
 @media screen and (min-width: 992px) {
