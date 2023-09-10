@@ -74,34 +74,62 @@ header .menu nav {
   background-color: #f4fafb;
 }
 #delivered .textbox h1 {
-  font-size: 68px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 600;
 }
 #delivered .textbox span {
   color: #37b7c3;
 }
 #delivered .textbox p {
-  font-size: 20px;
+  font-size: 15px;
   color: #676f8b;
   margin: 25px 0;
   line-height: 1.3;
 }
 #delivered .textbox .btn {
-  padding: 13px 30px;
+  padding: 10px 20px;
   background-color: #38b6c1;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 #delivered .textbox .btn h2 {
-  font-size: 20px;
+  font-size: 15px;
   color: white;
 }
 #delivered .textbox .imgbox {
-  width: 120px;
+  width: 100px;
   margin: 20px 0 10px;
 }
 #delivered .textbox h4 {
-  font-size: 20px;
+  font-size: 15px;
 }
+@media screen and (min-width: 576px) {
+  #delivered .textbox h1 {
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #delivered .textbox h1 {
+    font-size: 68px;
+    font-size: 700;
+  }
+  #delivered .textbox p {
+    font-size: 20px;
+  }
+  #delivered .textbox .btn {
+    padding: 13px 30px;
+    border-radius: 5px;
+  }
+  #delivered .textbox .btn h2 {
+    font-size: 20px;
+  }
+  #delivered .textbox .imgbox {
+    width: 120px;
+  }
+  #delivered .textbox h4 {
+    font-size: 20px;
+  }
+}
+
 #home {
   background-color: #f1f8f9;
 }
