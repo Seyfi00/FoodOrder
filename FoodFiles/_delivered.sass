@@ -1,7 +1,9 @@
 #delivered
-    // background-color: #f4fafb
-    background-color: #083e79
+    background-color: #f4fafb
+    // background-color: #083e79
     .textbox
+        // text-align: center
+        // padding: 0 20px 50px
         h1
             font-size: 30px
             font-weight: 600
@@ -19,6 +21,11 @@
             h2
                 font-size: 15px
                 color: #ffff
+                &:hover
+                    cursor: pointer
+            &:hover
+                cursor: pointer
+                background-color: #3d4d5e
         .imgbox
             width: 100px
             margin: 20px 0 10px
@@ -26,10 +33,10 @@
             font-size: 15px
     @media screen and ( min-width: 576px )
         .textbox
+            // text-align: start
+            // padding: 0
             h1
                 font-size: 45px
-        .imgbox
-            width: 300px
     @media screen and ( min-width: 992px )
         .textbox
             h1

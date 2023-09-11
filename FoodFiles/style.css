@@ -1,6 +1,7 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+  position: relative;
 }
 
 .imgbox {
@@ -71,7 +72,7 @@ header .menu nav {
 }
 
 #delivered {
-  background-color: #083e79;
+  background-color: #f4fafb;
 }
 #delivered .textbox h1 {
   font-size: 30px;
@@ -95,6 +96,13 @@ header .menu nav {
   font-size: 15px;
   color: white;
 }
+#delivered .textbox .btn h2:hover {
+  cursor: pointer;
+}
+#delivered .textbox .btn:hover {
+  cursor: pointer;
+  background-color: #3d4d5e;
+}
 #delivered .textbox .imgbox {
   width: 100px;
   margin: 20px 0 10px;
@@ -105,9 +113,6 @@ header .menu nav {
 @media screen and (min-width: 576px) {
   #delivered .textbox h1 {
     font-size: 45px;
-  }
-  #delivered .imgbox {
-    width: 300px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -134,7 +139,7 @@ header .menu nav {
 }
 
 #home {
-  background-color: #f1f8f9;
+  background-color: #be3333;
 }
 #home .textbox h1 {
   color: #49abc1;
@@ -155,18 +160,12 @@ header .menu nav {
   font-size: 20px;
   border-radius: 5px;
 }
-#home .imgbox {
-  width: 520px;
-}
 
 #how h1 {
   color: #36b3bd;
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 60px;
-}
-#how .box .imgbox {
-  width: 350px;
 }
 #how .box .textbox h2 {
   font-size: 25px;
@@ -253,9 +252,6 @@ header .menu nav {
   margin-top: 50px;
 }
 
-#order .imgbox {
-  width: 600px;
-}
 #order h1 {
   font-size: 60px;
   font-weight: 700;
@@ -294,9 +290,6 @@ header .menu nav {
   background-color: #38b6c1;
   padding: 13px 34px;
   font-size: 20px;
-}
-#call .imgbox {
-  width: 520px;
 }
 
 #support .textbox h1 {
