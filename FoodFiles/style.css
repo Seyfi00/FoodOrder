@@ -169,19 +169,50 @@ header .menu nav {
 
 #how h1 {
   color: #36b3bd;
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 700;
   margin-bottom: 60px;
 }
+#how .box {
+  flex-direction: column;
+}
+#how .box .imgbox {
+  max-width: 300px;
+}
+#how .box .textbox {
+  padding-bottom: 25px;
+}
 #how .box .textbox h2 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 9px;
 }
-#how .box .textbox h4 {
+#how .box .textbox p {
   color: #676f8b;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.3;
+}
+@media screen and (min-width: 768px) {
+  #how h1 {
+    font-size: 60px;
+  }
+  #how .box .imgbox {
+    min-width: 250px;
+  }
+  #how .box .textbox h2 {
+    font-size: 23px;
+  }
+  #how .box .textbox p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #how .box .imgbox {
+    min-width: 350px;
+  }
+}
+#how h1:hover, #how h2:hover, #how p:hover {
+  cursor: auto;
 }
 
 #burger .textbox {
