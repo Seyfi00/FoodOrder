@@ -134,6 +134,9 @@ header .menu nav {
     font-size: 20px;
   }
 }
+#delivered h1:hover, #delivered h4:hover, #delivered p:hover {
+  cursor: auto;
+}
 
 #home {
   background-color: #f1f8f9;
@@ -307,62 +310,98 @@ header .menu nav {
   margin-top: 50px;
 }
 
-#order h1 {
-  font-size: 60px;
+#order .textbox h1 {
+  font-size: 40px;
   font-weight: 700;
   color: #36b3bd;
 }
-#order h5 {
+#order .textbox p {
   color: #676f8b;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.3;
-  margin: 25px 75px 50px 0;
+  margin: 25px 0;
 }
-#order .btn {
+#order .textbox .btn {
   background-color: #38b6c1;
-  padding: 13px 34px;
-  border-radius: 5px;
+  padding: 10px 25px;
+  border-radius: 3px;
 }
-#order .btn h2 {
+#order .textbox .btn h2 {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 15px;
 }
-#order .btn h2:hover {
+#order .textbox .btn h2:hover {
   cursor: pointer;
 }
-#order .btn:hover {
+#order .textbox .btn:hover {
   cursor: pointer;
   background-color: #3d4d5e;
+}
+@media screen and (min-width: 768px) {
+  #order .textbox h1 {
+    font-size: 65px;
+  }
+  #order .textbox p {
+    font-size: 20px;
+  }
+  #order .textbox .btn {
+    padding: 13px 34px;
+    border-radius: 5px;
+  }
+  #order .textbox .btn h2 {
+    font-size: 20px;
+  }
+}
+#order h1:hover, #order p:hover {
+  cursor: auto;
 }
 
 #call {
   background-color: #f1f8f9;
 }
-#call h1 {
+#call .textbox h1 {
   color: #36b3bd;
-  font-size: 65px;
+  font-size: 40px;
   font-weight: 700;
 }
-#call h5 {
+#call .textbox p {
   color: #676f8b;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.3;
-  margin: 25px 75px 50px 0;
+  margin: 25px 0;
 }
-#call .btn {
+#call .textbox .btn {
   background-color: #38b6c1;
-  padding: 13px 34px;
+  padding: 10px 25px;
 }
-#call .btn h2 {
+#call .textbox .btn h2 {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 18px;
 }
-#call .btn h2:hover {
+#call .textbox .btn h2:hover {
   cursor: pointer;
 }
-#call .btn:hover {
+#call .textbox .btn:hover {
   cursor: pointer;
   background-color: #3d4d5e;
+}
+@media screen and (min-width: 768px) {
+  #call .textbox h1 {
+    font-size: 65px;
+  }
+  #call .textbox p {
+    font-size: 20px;
+  }
+  #call .textbox .btn {
+    padding: 13px 34px;
+    border-radius: 5px;
+  }
+  #call .textbox .btn h2 {
+    font-size: 20px;
+  }
+}
+#call h1:hover, #call p:hover {
+  cursor: auto;
 }
 
 #support .textbox h1 {
