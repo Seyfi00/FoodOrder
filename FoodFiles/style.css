@@ -253,9 +253,12 @@ header .menu nav {
   color: #3cc1d8;
   text-decoration: underline;
 }
+#burger .pt-4 {
+  flex-wrap: wrap;
+}
 #burger .btn {
   padding: 10px 35px;
-  margin: 0 20px;
+  margin: 0 20px 20px;
   border: 0.5px solid #bdbdbd;
   border-radius: 5px;
 }
