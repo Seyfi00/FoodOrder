@@ -1,28 +1,32 @@
 #burger
     .textbox
-        width: 500px
+        // width: 500px
         text-align: center
         h1
-            font-size: 60px
+            font-size: 45px
             font-weight: 700
             color: #3cc1d8
-        h4
+        p
             color: #6c7480
-            font-size: 20px
-            line-height: 1.2
+            font-size: 18px
+            // line-height: 1.2
             margin: 20px 0
             span
                 color: #3cc1d8
-                text-decoration-line: underline
+                text-decoration: underline
     .btn
-        font-size: 18px
-        padding: 15px 46px
+        padding: 10px 35px
         margin: 0 20px
         border: 0.5px solid #bdbdbd
         border-radius: 5px
+        h3
+            font-size: 15px
+            &:hover
+                cursor: pointer
     .bgc
-        color: #ffffff
         background-color: #3cc1d8
+        h3
+            color: #ffffff
     .box
         padding: 30px
         .imgbox
@@ -36,10 +40,10 @@
                 h2
                     font-size: 22px
                     font-weight: 700
-                h5
+                h4
                     color: #3cc1d8
                     font-size: 18px
-            p
+            h6
                 color: #232f4285
                 margin: 15px 0
                 font-size: 18px
@@ -57,5 +61,15 @@
     .big
         padding: 17px 53px
         margin-top: 50px
-        
+    @media screen and ( min-width: 768px )
+        .textbox
+            h1
+                font-size: 60px
+            p
+                font-size: 20px
+        .btn
+            padding: 15px 46px
+            h3
+                font-size: 18px
+                
 

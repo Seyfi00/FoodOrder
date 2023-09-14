@@ -237,34 +237,39 @@ header .menu nav {
 }
 
 #burger .textbox {
-  width: 500px;
   text-align: center;
 }
 #burger .textbox h1 {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 700;
   color: #3cc1d8;
 }
-#burger .textbox h4 {
+#burger .textbox p {
   color: #6c7480;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 18px;
   margin: 20px 0;
 }
-#burger .textbox h4 span {
+#burger .textbox p span {
   color: #3cc1d8;
-  text-decoration-line: underline;
+  text-decoration: underline;
 }
 #burger .btn {
-  font-size: 18px;
-  padding: 15px 46px;
+  padding: 10px 35px;
   margin: 0 20px;
   border: 0.5px solid #bdbdbd;
   border-radius: 5px;
 }
+#burger .btn h3 {
+  font-size: 15px;
+}
+#burger .btn h3:hover {
+  cursor: pointer;
+}
 #burger .bgc {
-  color: #ffffff;
   background-color: #3cc1d8;
+}
+#burger .bgc h3 {
+  color: #ffffff;
 }
 #burger .box {
   padding: 30px;
@@ -282,11 +287,11 @@ header .menu nav {
   font-size: 22px;
   font-weight: 700;
 }
-#burger .box .textbox .minibox h5 {
+#burger .box .textbox .minibox h4 {
   color: #3cc1d8;
   font-size: 18px;
 }
-#burger .box .textbox p {
+#burger .box .textbox h6 {
   color: rgba(35, 47, 66, 0.5215686275);
   margin: 15px 0;
   font-size: 18px;
@@ -308,6 +313,20 @@ header .menu nav {
 #burger .big {
   padding: 17px 53px;
   margin-top: 50px;
+}
+@media screen and (min-width: 768px) {
+  #burger .textbox h1 {
+    font-size: 60px;
+  }
+  #burger .textbox p {
+    font-size: 20px;
+  }
+  #burger .btn {
+    padding: 15px 46px;
+  }
+  #burger .btn h3 {
+    font-size: 18px;
+  }
 }
 
 #order .textbox h1 {
