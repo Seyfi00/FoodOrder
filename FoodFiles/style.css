@@ -275,6 +275,7 @@ header .menu nav {
   color: #ffffff;
 }
 #burger .box {
+  border: 1px solid black;
   padding: 30px;
 }
 #burger .box .imgbox {
@@ -284,20 +285,19 @@ header .menu nav {
 #burger .box .textbox {
   margin-left: 20px;
   text-align: left;
-  width: auto;
 }
 #burger .box .textbox .minibox h2 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
 }
 #burger .box .textbox .minibox h4 {
+  font-size: 15px;
   color: #3cc1d8;
-  font-size: 18px;
 }
 #burger .box .textbox h6 {
   color: rgba(35, 47, 66, 0.5215686275);
   margin: 15px 0;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.2;
 }
 #burger .box .textbox .add {
@@ -312,6 +312,7 @@ header .menu nav {
   background-color: #3cc1d8;
   color: white;
   padding: 7px 20px;
+  margin: 0 0 0 20px;
 }
 #burger .big {
   padding: 17px 53px;
@@ -328,6 +329,18 @@ header .menu nav {
     padding: 15px 46px;
   }
   #burger .btn h3 {
+    font-size: 18px;
+  }
+  #burger .box {
+    min-width: 350px;
+  }
+  #burger .box .textbox .minibox h2 {
+    font-size: 22px;
+  }
+  #burger .box .textbox .minibox h4 {
+    font-size: 18px;
+  }
+  #burger .box .textbox h6 {
     font-size: 18px;
   }
 }
