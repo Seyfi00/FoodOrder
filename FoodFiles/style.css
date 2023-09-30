@@ -456,17 +456,15 @@ header .menu nav {
   background-color: purple;
 }
 #support .imgbox {
-  width: 100%;
-  height: 100%;
+  height: 400px;
 }
 #support .textbox {
-  width: 100%;
-  height: 100%;
-  padding: 0 30px;
+  background-color: #35b6c1;
+  height: 400px;
   flex-direction: column;
 }
 #support .textbox h1 {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   color: #ffffff;
   line-height: 1.1;
@@ -490,12 +488,12 @@ header .menu nav {
   cursor: pointer;
   background-color: #f7f2f2;
 }
-#support .bgc {
-  background-color: #35b6c1;
-}
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   #support .textbox h1 {
     font-size: 60px;
+  }
+  #support .textbox .btn {
+    margin-right: 50px;
   }
   #support .textbox .btn h2 {
     font-size: 22px;
