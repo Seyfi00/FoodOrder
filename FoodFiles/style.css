@@ -69,7 +69,7 @@ header .menu nav {
 }
 
 #delivered {
-  background-color: #f4fafb;
+  background-color: #083e79;
 }
 #delivered .textbox h1 {
   font-size: 30px;
@@ -139,7 +139,7 @@ header .menu nav {
 }
 
 #home {
-  background-color: #f1f8f9;
+  background-color: yellow;
 }
 #home .textbox h1 {
   color: #49abc1;
@@ -156,6 +156,7 @@ header .menu nav {
   padding: 10px 20px;
   background-color: #38b6c1;
   border-radius: 3px;
+  margin-bottom: 30px;
 }
 #home .textbox .btn h2 {
   color: white;
@@ -179,6 +180,7 @@ header .menu nav {
   #home .textbox .btn {
     padding: 13px 30px;
     border-radius: 5px;
+    margin-bottom: 0px;
   }
   #home .textbox .btn h2 {
     font-size: 20px;
@@ -188,6 +190,9 @@ header .menu nav {
   cursor: auto;
 }
 
+#how {
+  background-color: red;
+}
 #how h1 {
   color: #36b3bd;
   font-size: 45px;
@@ -236,6 +241,9 @@ header .menu nav {
   cursor: auto;
 }
 
+#burger {
+  background-color: blue;
+}
 #burger .textbox {
   text-align: center;
 }
@@ -345,6 +353,9 @@ header .menu nav {
   }
 }
 
+#order {
+  background-color: green;
+}
 #order .textbox h1 {
   font-size: 40px;
   font-weight: 700;
@@ -392,7 +403,7 @@ header .menu nav {
 }
 
 #call {
-  background-color: #f1f8f9;
+  background-color: #000000;
 }
 #call .textbox h1 {
   color: #36b3bd;
@@ -408,6 +419,7 @@ header .menu nav {
 #call .textbox .btn {
   background-color: #38b6c1;
   padding: 10px 25px;
+  margin-bottom: 40px;
 }
 #call .textbox .btn h2 {
   color: #ffffff;
@@ -430,6 +442,7 @@ header .menu nav {
   #call .textbox .btn {
     padding: 13px 34px;
     border-radius: 5px;
+    margin-bottom: 0px;
   }
   #call .textbox .btn h2 {
     font-size: 20px;
@@ -439,6 +452,9 @@ header .menu nav {
   cursor: auto;
 }
 
+#support {
+  background-color: purple;
+}
 #support .textbox h1 {
   font-size: 60px;
   font-weight: 700;
