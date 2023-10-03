@@ -374,8 +374,8 @@ header .menu nav {
   }
 }
 
-#order {
-  background-color: green;
+#order .textbox {
+  padding: 0 35px 0 40px;
 }
 #order .textbox h1 {
   font-size: 40px;
@@ -405,6 +405,9 @@ header .menu nav {
   background-color: #3d4d5e;
 }
 @media screen and (min-width: 768px) {
+  #order .textbox {
+    padding: 0;
+  }
   #order .textbox h1 {
     font-size: 52px;
   }
@@ -430,6 +433,9 @@ header .menu nav {
 
 #call {
   background-color: #000000;
+}
+#call .textbox {
+  padding: 0 30px 0 50px;
 }
 #call .textbox h1 {
   color: #36b3bd;
@@ -458,9 +464,15 @@ header .menu nav {
   cursor: pointer;
   background-color: #3d4d5e;
 }
+#call .imgbox {
+  max-width: 400px;
+}
 @media screen and (min-width: 768px) {
+  #call .textbox {
+    padding: 0;
+  }
   #call .textbox h1 {
-    font-size: 65px;
+    font-size: 50px;
   }
   #call .textbox p {
     font-size: 20px;
@@ -472,6 +484,14 @@ header .menu nav {
   }
   #call .textbox .btn h2 {
     font-size: 20px;
+  }
+  #call .imgbox {
+    max-width: 500px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #call .textbox h1 {
+    font-size: 65px;
   }
 }
 #call h1:hover, #call p:hover {
