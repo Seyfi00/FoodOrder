@@ -69,7 +69,10 @@ header .menu nav {
 }
 
 #delivered {
-  background-color: #083e79;
+  background-color: #f4fafb;
+}
+#delivered .textbox {
+  padding: 0 50px 0 35px;
 }
 #delivered .textbox h1 {
   font-size: 30px;
@@ -77,6 +80,9 @@ header .menu nav {
 }
 #delivered .textbox span {
   color: #37b7c3;
+}
+#delivered .textbox span:hover {
+  cursor: auto;
 }
 #delivered .textbox p {
   font-size: 15px;
@@ -106,8 +112,13 @@ header .menu nav {
 }
 #delivered .textbox h4 {
   font-size: 15px;
+  margin-bottom: 30px;
+  line-height: 1.3;
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
+  #delivered .textbox {
+    padding: 0;
+  }
   #delivered .textbox h1 {
     font-size: 45px;
   }
@@ -139,7 +150,10 @@ header .menu nav {
 }
 
 #home {
-  background-color: yellow;
+  background-color: #f1f8f9;
+}
+#home .textbox {
+  padding: 0 50px 0 35px;
 }
 #home .textbox h1 {
   color: #49abc1;
@@ -170,9 +184,11 @@ header .menu nav {
   cursor: pointer;
 }
 @media screen and (min-width: 768px) {
+  #home .textbox {
+    padding: 0;
+  }
   #home .textbox h1 {
-    font-size: 65px;
-    margin-right: 90px;
+    font-size: 52px;
   }
   #home .textbox p {
     font-size: 20px;
@@ -184,6 +200,11 @@ header .menu nav {
   }
   #home .textbox .btn h2 {
     font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #home .textbox h1 {
+    font-size: 65px;
   }
 }
 #home h1:hover, #home p:hover {
@@ -385,7 +406,7 @@ header .menu nav {
 }
 @media screen and (min-width: 768px) {
   #order .textbox h1 {
-    font-size: 65px;
+    font-size: 52px;
   }
   #order .textbox p {
     font-size: 20px;
@@ -396,6 +417,11 @@ header .menu nav {
   }
   #order .textbox .btn h2 {
     font-size: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  #order .textbox h1 {
+    font-size: 65px;
   }
 }
 #order h1:hover, #order p:hover {
@@ -452,6 +478,9 @@ header .menu nav {
   cursor: auto;
 }
 
+#support {
+  background-color: purple;
+}
 #support .textbox {
   padding: 35px 45px 40px 35px;
 }
