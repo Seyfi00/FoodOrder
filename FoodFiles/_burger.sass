@@ -35,7 +35,7 @@
             color: #ffffff
     .box
         border: 1px solid #bdbdbd
-        padding: 30px
+        padding: 20px
         border-radius: 5px
         .imgbox
             width: 150px
@@ -46,30 +46,49 @@
             width: auto
             .minibox
                 h2
-                    font-size: 20px
+                    font-size: 18px
                     font-weight: 700
                 h4
-                    font-size: 15px
+                    font-size: 13px
                     color: #3cc1d8
             h6
                 color: #232f4285
-                margin: 15px 0
+                margin: 12px 0
                 font-size: 17px
-                line-height: 1.2
+                line-height: 1.1
             .add
                 display: flex
                 input
                     border: 1px solid #e1e1e1
                     background-color: #e9e9e9
-                    width: 50px
+                    width: 40px
                 .btn
                     background-color: #3cc1d8
                     color: #ffff
-                    padding: 7px 20px
-                    margin: 0 0 0 20px
+                    padding: 5px 15px
+                    margin: 0 0 0 15px
     .big
         padding: 17px 53px
         margin-top: 50px
+
+    @media screen and ( min-width: 576px )
+        .box
+            padding: 30px
+            .textbox
+                .minibox
+                    h2
+                        font-size: 20px
+                    h4
+                        font-size: 15px
+                h6
+                    line-height: 1.2
+                    margin: 15px 0
+                .add
+                    input
+                        width: 50px
+                    .btn
+                        padding: 7px 20px
+                        margin: 0 0 0 20px
 
     @media screen and ( min-width: 768px )
         .textbox
