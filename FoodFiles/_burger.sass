@@ -1,7 +1,7 @@
 #burger
-    background-color: blue
+    // background-color: blue
     .textbox
-        // width: 500px
+        width: 500px
         text-align: center
         h1
             font-size: 45px
@@ -10,11 +10,14 @@
         p
             color: #6c7480
             font-size: 18px
-            // line-height: 1.2
+            line-height: 1.2
             margin: 20px 0
             span
                 color: #3cc1d8
                 text-decoration: underline
+                &:hover
+                    cursor: pointer
+                    color: #3d4d5e
     .pt-4
         flex-wrap: wrap
     .btn
@@ -31,15 +34,16 @@
         h3
             color: #ffffff
     .box
-        border: 1px solid black
+        border: 1px solid #bdbdbd
         padding: 30px
+        border-radius: 5px
         .imgbox
             width: 150px
             border-radius: 10px
         .textbox
-            margin-left: 20px
+            padding-left: 20px
             text-align: left
-            // width: auto
+            width: auto
             .minibox
                 h2
                     font-size: 20px
@@ -50,7 +54,7 @@
             h6
                 color: #232f4285
                 margin: 15px 0
-                font-size: 15px
+                font-size: 17px
                 line-height: 1.2
             .add
                 display: flex
@@ -66,6 +70,7 @@
     .big
         padding: 17px 53px
         margin-top: 50px
+
     @media screen and ( min-width: 768px )
         .textbox
             h1
@@ -78,6 +83,27 @@
                 font-size: 18px
         .box
             min-width: 350px
+            padding: 20px
+            .textbox
+                .minibox
+                    h2
+                        font-size: 18px
+                    h4
+                        font-size: 16px
+                h6
+                    font-size: 16px
+                    margin: 10px 0
+                .add
+                    input
+                        width: 45px
+                    .btn
+                        padding: 5px 15px
+
+    @media screen and ( min-width: 992px )
+        .box
+            padding: 30px
+            .imgbox
+                width: 150px
             .textbox
                 .minibox
                     h2
@@ -86,5 +112,12 @@
                         font-size: 18px
                 h6
                     font-size: 18px
+                    margin: 15px 0
+                .add
+                    input
+                        width: 50px
+                    .btn
+                        padding: 7px 20px
+
                 
 
