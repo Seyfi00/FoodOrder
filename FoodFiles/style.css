@@ -452,14 +452,15 @@ header .menu nav {
   cursor: auto;
 }
 
-#support {
-  background-color: purple;
+#support .textbox {
+  padding: 35px 45px 40px 35px;
 }
 #support .textbox h1 {
-  font-size: 50px;
+  font-size: 55px;
   font-weight: 700;
   color: #ffffff;
   line-height: 1.1;
+  margin-bottom: 30px;
 }
 #support .textbox span {
   color: rgba(36, 102, 114, 0.5137254902);
@@ -501,7 +502,7 @@ header .menu nav {
 }
 @media screen and (min-width: 1200px) {
   #support .textbox {
-    padding: 0 50px 0 40px;
+    padding: 0 40px 0 30px;
   }
   #support .textbox h1 {
     font-size: 55px;
