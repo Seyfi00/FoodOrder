@@ -349,8 +349,14 @@ header .menu nav {
   margin: 0 0 0 15px;
 }
 #burger .big {
-  padding: 17px 53px;
+  padding: 15px 35px;
   margin-top: 50px;
+}
+#burger .big h3 {
+  font-size: 17px;
+}
+#burger .big:hover {
+  background-color: #3d4d5e;
 }
 @media screen and (min-width: 576px) {
   #burger .box {
@@ -406,6 +412,12 @@ header .menu nav {
   }
   #burger .box .textbox .add .btn {
     padding: 5px 15px;
+  }
+  #burger .big {
+    padding: 17px 53px;
+  }
+  #burger .big h3 {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 992px) {
