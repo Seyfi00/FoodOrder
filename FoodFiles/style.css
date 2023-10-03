@@ -282,8 +282,8 @@ header .menu nav {
   text-decoration: underline;
 }
 #burger .textbox p span:hover {
-  cursor: pointer;
   color: #3d4d5e;
+  cursor: pointer;
 }
 #burger .pt-4 {
   flex-wrap: wrap;
@@ -298,6 +298,9 @@ header .menu nav {
   font-size: 15px;
 }
 #burger .btn h3:hover {
+  cursor: pointer;
+}
+#burger .btn:hover {
   cursor: pointer;
 }
 #burger .bgc {
@@ -347,6 +350,12 @@ header .menu nav {
   color: white;
   padding: 5px 15px;
   margin: 0 0 0 15px;
+}
+#burger .box .textbox .add .btn h5:hover {
+  cursor: pointer;
+}
+#burger .box .textbox .add .btn:hover {
+  background-color: #3d4d5e;
 }
 #burger .big {
   padding: 15px 35px;
@@ -443,6 +452,9 @@ header .menu nav {
   #burger .box .textbox .add .btn {
     padding: 7px 20px;
   }
+}
+#burger h1:hover, #burger h2:hover, #burger h4:hover, #burger h6:hover, #burger p:hover {
+  cursor: auto;
 }
 
 #order .textbox {
