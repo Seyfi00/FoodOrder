@@ -12,7 +12,10 @@ body {
 }
 
 section {
-  padding: 120px 0;
+  padding: 100px 0;
+}
+section h1:hover, section h2:hover, section h4:hover, section h6:hover, section p:hover {
+  cursor: auto;
 }
 
 header {
@@ -69,6 +72,7 @@ header .menu nav {
 }
 
 #delivered {
+  padding: 130px 0 100px;
   background-color: #f4fafb;
 }
 #delivered .textbox {
@@ -150,10 +154,11 @@ header .menu nav {
 }
 
 #home {
+  padding: 80px 0;
   background-color: #f1f8f9;
 }
 #home .textbox {
-  padding: 0 50px 0 35px;
+  padding: 0 50px 0 65px;
 }
 #home .textbox h1 {
   color: #49abc1;
@@ -212,7 +217,7 @@ header .menu nav {
 }
 
 #how {
-  background-color: red;
+  padding: 80px 0;
 }
 #how h1 {
   color: #36b3bd;
@@ -262,6 +267,10 @@ header .menu nav {
   cursor: auto;
 }
 
+#burger {
+  padding: 80px 0;
+  background-color: #f1f8f9;
+}
 #burger .textbox {
   width: 500px;
   text-align: center;
@@ -310,7 +319,8 @@ header .menu nav {
   color: #ffffff;
 }
 #burger .box {
-  border: 1px solid #bdbdbd;
+  background-color: #ffffff;
+  border: 1px solid #f3ebeb;
   padding: 20px;
   border-radius: 5px;
 }
@@ -457,8 +467,11 @@ header .menu nav {
   cursor: auto;
 }
 
+#order {
+  padding: 100px 0;
+}
 #order .textbox {
-  padding: 0 35px 0 40px;
+  padding: 0 35px 0 75px;
 }
 #order .textbox h1 {
   font-size: 40px;
@@ -515,10 +528,11 @@ header .menu nav {
 }
 
 #call {
-  background-color: #000000;
+  padding: 80px 0;
+  background-color: #f1f8f9;
 }
 #call .textbox {
-  padding: 0 30px 0 50px;
+  padding: 0 30px 0 70px;
 }
 #call .textbox h1 {
   color: #36b3bd;
@@ -582,7 +596,7 @@ header .menu nav {
 }
 
 #support {
-  background-color: purple;
+  padding: 80px 0;
 }
 #support .col-md-6 {
   padding: 15px 10px;
