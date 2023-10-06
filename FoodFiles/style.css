@@ -584,18 +584,33 @@ header .menu nav {
 #support {
   background-color: purple;
 }
+#support .col-md-6 {
+  padding: 15px 10px;
+}
+#support .imgbox {
+  max-width: 400px;
+  max-height: 250px;
+}
 #support .textbox {
-  padding: 35px 45px 40px 35px;
+  background-color: #35b6c1;
+  padding: 45px 50px 45px 45px;
+  max-width: 400px;
 }
 #support .textbox h1 {
-  font-size: 55px;
+  font-size: 40px;
   font-weight: 700;
   color: #ffffff;
   line-height: 1.1;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+#support .textbox h1:hover {
+  cursor: auto;
 }
 #support .textbox span {
   color: rgba(36, 102, 114, 0.5137254902);
+}
+#support .textbox span:hover {
+  cursor: auto;
 }
 #support .textbox .btn {
   background-color: #ffffff;
@@ -612,12 +627,37 @@ header .menu nav {
   cursor: pointer;
   background-color: #f7f2f2;
 }
-#support .bgc {
-  background-color: #35b6c1;
+@media screen and (min-width: 576px) {
+  #support .col-md-6 {
+    padding: 15px 0;
+  }
+  #support .imgbox {
+    max-width: 450px;
+    max-height: 300px;
+  }
+  #support .textbox {
+    max-width: 450px;
+    padding: 55px 45px;
+  }
+  #support .textbox h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+  }
 }
 @media screen and (min-width: 768px) {
+  #support .col-md-6 {
+    padding: 0 15px;
+  }
+  #support .bgc {
+    background-color: #35b6c1;
+  }
+  #support .imgbox {
+    max-width: 330px;
+    max-height: 245px;
+  }
   #support .textbox {
-    padding: 0 30px 0 15px;
+    max-width: 330px;
+    padding: 0 25px 0 15px;
   }
   #support .textbox h1 {
     font-size: 40px;
@@ -625,7 +665,12 @@ header .menu nav {
   }
 }
 @media screen and (min-width: 992px) {
+  #support .imgbox {
+    max-width: 450px;
+    max-height: 335px;
+  }
   #support .textbox {
+    max-width: 450px;
     padding: 0 40px 0 30px;
   }
   #support .textbox h1 {
@@ -633,8 +678,13 @@ header .menu nav {
   }
 }
 @media screen and (min-width: 1200px) {
+  #support .imgbox {
+    max-width: 540px;
+    max-height: 405px;
+  }
   #support .textbox {
-    padding: 0 45px 0 45px;
+    max-width: 540px;
+    padding: 0 45px;
   }
   #support .textbox h1 {
     font-size: 55px;

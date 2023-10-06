@@ -1,19 +1,26 @@
 #support
     background-color: purple
-    // .col-md-6
-    //     padding: 0
+    .col-md-6
+        padding: 15px 10px
     .imgbox
-        // width: 350px
+        max-width: 400px
+        max-height: 250px
     .textbox
-        padding: 35px 45px 40px 35px
+        background-color: #35b6c1
+        padding: 45px 50px 45px 45px
+        max-width: 400px
         h1
-            font-size: 55px
+            font-size: 40px
             font-weight: 700
             color: #ffffff
             line-height: 1.1
-            margin-bottom: 30px
+            margin-bottom: 20px
+            &:hover
+                cursor: auto
         span
             color: #24667283
+            &:hover
+                cursor: auto
         .btn
             background-color: #ffffff
             padding: 10px 30px
@@ -26,25 +33,52 @@
                 cursor: pointer
                 background-color: #f7f2f2
     .bgc
-        background-color: #35b6c1
-        
+    
+    @media screen and ( min-width: 576px )
+        .col-md-6
+            padding: 15px 0
+        .imgbox
+            max-width: 450px
+            max-height: 300px
+        .textbox
+            max-width: 450px
+            padding: 55px 45px
+            h1
+                font-size: 50px
+                margin-bottom: 25px
     
     @media screen and ( min-width: 768px )
+        .col-md-6
+            padding: 0 15px
+        .bgc
+            background-color: #35b6c1
+        .imgbox
+            max-width: 330px
+            max-height: 245px
         .textbox
-            padding: 0 30px 0 15px
+            max-width: 330px
+            padding: 0 25px 0 15px
             h1
                 font-size: 40px
                 margin-bottom: 20px
         
     @media screen and ( min-width: 992px )
+        .imgbox
+            max-width: 450px
+            max-height: 335px
         .textbox
+            max-width: 450px
             padding: 0 40px 0 30px
             h1
                 font-size: 50px
         
     @media screen and ( min-width: 1200px )
+        .imgbox
+            max-width: 540px
+            max-height: 405px
         .textbox
-            padding: 0 45px 0 45px
+            max-width: 540px
+            padding: 0 45px
             h1
                 font-size: 55px
                 margin-bottom: 30px
