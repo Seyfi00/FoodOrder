@@ -626,7 +626,7 @@ header .menu nav {
 }
 @media screen and (min-width: 992px) {
   #support .textbox {
-    padding: 0 40px 0 25px;
+    padding: 0 40px 0 30px;
   }
   #support .textbox h1 {
     font-size: 50px;
@@ -634,7 +634,7 @@ header .menu nav {
 }
 @media screen and (min-width: 1200px) {
   #support .textbox {
-    padding: 0 40px 0 30px;
+    padding: 0 45px 0 45px;
   }
   #support .textbox h1 {
     font-size: 55px;
