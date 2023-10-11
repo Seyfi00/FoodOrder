@@ -19,10 +19,6 @@ section h1:hover, section h2:hover, section h4:hover, section h6:hover, section 
 }
 
 header {
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  background-color: #3d4d5e;
   padding: 15px 0;
 }
 header .menu .imgbox {
@@ -62,11 +58,11 @@ header .menu nav {
   }
   header .menu nav a {
     font-size: 20px;
-    color: #ffffff;
+    color: #37b7c3;
     margin-right: 30px;
   }
   header .menu nav a:hover {
-    color: #37b7c3;
+    color: #000000;
     cursor: pointer;
   }
 }
@@ -232,7 +228,7 @@ header .menu nav {
   max-width: 300px;
 }
 #how .box .textbox {
-  padding-bottom: 25px;
+  padding: 0 45px 25px 45px;
 }
 #how .box .textbox h2 {
   font-size: 20px;
@@ -250,6 +246,9 @@ header .menu nav {
   }
   #how .box .imgbox {
     min-width: 250px;
+  }
+  #how .box .textbox {
+    padding: 0 0px 25px;
   }
   #how .box .textbox h2 {
     font-size: 23px;
@@ -294,12 +293,9 @@ header .menu nav {
   color: #3d4d5e;
   cursor: pointer;
 }
-#burger .pt-4 {
-  flex-wrap: wrap;
-}
 #burger .btn {
-  padding: 10px 35px;
-  margin: 0 20px 20px;
+  padding: 7px 23px;
+  margin: 0 10px 20px;
   border: 0.5px solid #bdbdbd;
   border-radius: 5px;
 }
@@ -378,6 +374,10 @@ header .menu nav {
   background-color: #3d4d5e;
 }
 @media screen and (min-width: 576px) {
+  #burger .pt-4 .btn {
+    padding: 10px 35px;
+    margin: 0 20px 20px;
+  }
   #burger .box {
     padding: 30px;
   }
